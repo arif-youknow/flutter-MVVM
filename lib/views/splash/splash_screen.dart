@@ -1,7 +1,7 @@
 import 'dart:async' as async;
 import 'package:flutter/material.dart';
 import 'package:mvvm_project/core/constant/appcolor.dart';
-import 'package:mvvm_project/core/utils/uihelper.dart';
+import 'package:mvvm_project/core/utils/image_helper.dart';
 import 'package:mvvm_project/views/login/login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [UiHelper.customImage(img: 'logo.png')],
+          children: [ImageHelper.customImage(img: 'logo.png')],
         ),
       ),
     );
